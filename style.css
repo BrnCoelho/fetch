@@ -1,0 +1,68 @@
+/* Resetando margens e preenchimentos para garantir uniformidade */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /* Garante que o padding e a borda sejam incluídos nas dimensões do elemento */
+    font-family: Arial, sans-serif; /* Define a fonte padrão para Arial */
+  }
+  
+  /* Estilização do corpo da página */
+  body {
+    background-color:  green; /* Define a cor de fundo da página */
+    display: flex; /* Usa flexbox para alinhar o conteúdo */
+    justify-content: center; /* Centraliza o conteúdo horizontalmente */
+    align-items: center; /* Centraliza o conteúdo verticalmente */
+    height: 100vh; /* Faz a altura do corpo ocupar 100% da tela */
+  }
+  
+  /* Estilização do contêiner principal */
+  .container {
+    width: 100%; /* Define a largura do contêiner como 90% da tela */
+    max-width: 1500px; /* Define a largura máxima como 1200px */
+    background-color: #fff; /* Cor de fundo branca */
+    padding: 20px; /* Espaçamento interno */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra leve ao redor do contêiner */
+  }
+
+  th:nth-child(1), td:nth-child(1) {
+    width: 5%; /* Largura mínima para o ID */
+    white-space: nowrap; /* Garante que o número não quebre em várias linhas */
+    text-align: center; /* Centraliza o texto */
+  }
+  
+  /* Estilo do título principal */
+  h1 {
+    text-align: center; /* Centraliza o título */
+    margin-bottom: 20px; /* Adiciona espaço abaixo do título */
+    color:  green;
+  }
+  
+  /* Estilo geral da tabela */
+  table {
+    width: 100%; /* A tabela ocupa toda a largura disponível */
+    border-collapse: collapse; /* Remove os espaços entre as células */
+  }
+  
+  /* Estilização das células da tabela */
+  th, td {
+    padding: 15px; /* Espaçamento interno nas células */
+    text-align: left; /* Alinhamento do texto à esquerda */
+    border-bottom: 1px solid #ddd; /* Linha divisória entre as linhas */
+  }
+  
+  /* Estilo do cabeçalho da tabela */
+  th {
+    background-color: #4CAF50; /* Fundo verde para o cabeçalho */
+    color: white; /* Texto branco no cabeçalho */
+  }
+  
+  /* Estilização de linhas pares da tabela */
+  tr:nth-child(even) {
+    background-color:white; /* Fundo cinza claro para linhas pares */
+  }
+  
+  /* Garante que o conteúdo das células não transborde */
+  td {
+    word-break: break-word; /* as informaçoes nao transbordam */
+  }
+  

@@ -1,0 +1,36 @@
+<!DOCTYPE html> <!-- Define o tipo de documento como HTML5 -->
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" /> <!-- Garante que o site será responsivo em dispositivos móveis -->
+  <title>Lista de Usuários</title> <!-- Título da página, exibido na aba do navegador -->
+  <link rel="stylesheet" href="style.css" /> <!-- Conecta o arquivo CSS externo para estilização -->
+  <script src="script.js"></script> <!-- Conecta o arquivo JavaScript que vai buscar e exibir os dados -->
+</head>
+<body>
+  <div class="container"> <!-- Div usada para centralizar e limitar a largura do conteúdo -->
+    <h1>Lista de Usuários</h1> <!-- Título principal da página -->
+    
+    <table id="userTable"> <!-- Início da tabela que mostrará os dados -->
+      <thead> <!-- Cabeçalho da tabela -->
+        <tr> <!-- Linha do cabeçalho -->
+          <th>ID</th> <!-- Cabeçalho da coluna "ID" -->
+          <th>Nome</th> <!-- Cabeçalho da coluna "Nome" -->
+          <th>Nome de Usuário</th> <!-- Cabeçalho da coluna "Nome de Usuário" -->
+          <th>Email</th> <!-- Cabeçalho da coluna "Email" -->
+          <th>Telefone</th> <!-- Cabeçalho da coluna "Telefone" -->
+          <th>Website</th> <!-- Cabeçalho da coluna "Website" -->
+          <th>Endereço Completo</th> <!-- Cabeçalho da coluna "Endereço" -->
+          <th>Coordenadas</th> <!-- Cabeçalho da coluna "Coordenadas" -->
+          <th>Empresa</th> <!-- Cabeçalho da coluna "Empresa" -->
+        </tr>
+      </thead>
+      <tbody> <!-- Corpo da tabela, onde os dados serão inseridos dinamicamente -->
+        <tr>
+          <td colspan="9">Carregando...</td> <!-- Célula que ocupa 9 colunas para exibir a mensagem "Carregando..." -->
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</body>
+</html>
